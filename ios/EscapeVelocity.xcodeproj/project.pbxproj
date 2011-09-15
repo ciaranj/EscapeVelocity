@@ -21,6 +21,7 @@
 		655118C513FAC48300A8A20B /* LuaSimpleAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 655118B913FAC3BD00A8A20B /* LuaSimpleAudioEngine.h */; };
 		655118CD13FAC63F00A8A20B /* effect1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 655118CB13FAC63F00A8A20B /* effect1.wav */; };
 		655118CE13FAC63F00A8A20B /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 655118CC13FAC63F00A8A20B /* background.mp3 */; };
+		9122A8671422A26B004BB3A8 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 9122A8661422A26B004BB3A8 /* lib */; };
 		BF23C0A613B038AB00F32062 /* LuaCocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = BF23C0A013B038AB00F32062 /* LuaCocos2d.h */; };
 		BF23C0A713B038AB00F32062 /* LuaEngineImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = BF23C0A113B038AB00F32062 /* LuaEngineImpl.h */; };
 		BF23C0A813B038AB00F32062 /* LuaEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = BF23C0A213B038AB00F32062 /* LuaEngine.h */; };
@@ -364,6 +365,7 @@
 		655118B913FAC3BD00A8A20B /* LuaSimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaSimpleAudioEngine.h; path = CocosDenshion_support/LuaSimpleAudioEngine.h; sourceTree = "<group>"; };
 		655118CB13FAC63F00A8A20B /* effect1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = effect1.wav; sourceTree = "<group>"; };
 		655118CC13FAC63F00A8A20B /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		9122A8661422A26B004BB3A8 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
 		BF23C0A013B038AB00F32062 /* LuaCocos2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaCocos2d.h; sourceTree = "<group>"; };
 		BF23C0A113B038AB00F32062 /* LuaEngineImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaEngineImpl.h; sourceTree = "<group>"; };
 		BF23C0A213B038AB00F32062 /* LuaEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaEngine.h; sourceTree = "<group>"; };
@@ -381,7 +383,7 @@
 		BF82F41E13A8652A00616D55 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		BF82F41F13A8652A00616D55 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
 		BF82F42013A8652A00616D55 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF82F42313A8654600616D55 /* EscapeVelocity_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; path = EscapeVelocity_Prefix.pch; sourceTree = "<group>"; };
+		BF82F42313A8654600616D55 /* EscapeVelocity_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscapeVelocity_Prefix.pch; sourceTree = "<group>"; };
 		BF82F42613A8657100616D55 /* CCActionCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionCamera.cpp; sourceTree = "<group>"; };
 		BF82F42713A8657100616D55 /* CCActionEase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionEase.cpp; sourceTree = "<group>"; };
 		BF82F42813A8657100616D55 /* CCActionGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionGrid.cpp; sourceTree = "<group>"; };
@@ -847,6 +849,7 @@
 		BF82F40313A8647B00616D55 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9122A8661422A26B004BB3A8 /* lib */,
 				655118CB13FAC63F00A8A20B /* effect1.wav */,
 				655118CC13FAC63F00A8A20B /* background.mp3 */,
 				D4CEAD9313B4770300780515 /* land.png */,
@@ -1710,6 +1713,7 @@
 				D4CEAD9A13B4770400780515 /* crop.png in Resources */,
 				655118CD13FAC63F00A8A20B /* effect1.wav in Resources */,
 				655118CE13FAC63F00A8A20B /* background.mp3 in Resources */,
+				9122A8671422A26B004BB3A8 /* lib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
